@@ -1,0 +1,79 @@
+.row > [class*="col"], .colfl, .row > .cols {
+ float: left;
+ display:block;
+ width:auto;
+
+}
+.container { padding-left:20px; padding-right:  20px;margin-left:auto; margin-right:auto;}
+.row { position: relative;  width:100%; margin-left:auto; margin-right:auto;  *zoom: 1;
+}
+.row:before, .row:after { display: table; content: ""; }
+.row:after { clear: both; }
+
+@media only screen and (min-width: 768px) {
+.row > [class*="col"], .colfl, .row > .cols {
+ float: left;
+ display:block;
+ width:auto;
+
+}
+.row > [class*="col"].pad { padding-left: 2.0833333333333%; padding-right:  2.0833333333333%; }
+.row > [class*="col"].add { margin-left: 2.0833333333333%; margin-right:  2.0833333333333%; }
+.row > [class*="col"].center { float:none !important; margin-left: auto !important; margin-right: auto !important; }
+
+.row .col1 { width:8.33333333333333%; }
+.row .col2,
+.count6 .cols { width:16.66666666%; }
+.row .col3,
+.row .count4 .cols { width:25%; }
+.row .col4,
+.row .count3 .cols { width:33.3333333%; }
+.row .col5 { width:41.5%; }
+.row .col6,
+.row .count2 .cols { width:50%; }
+.row .col7 { width:58.3333333333333%; }
+.row .col8 { width:66.6666666666666%; }
+.row .col9 { width:75%; }
+.row .col10 { width:83.3333333333333%; }
+.row .col11 { width: 91.6666666666666%; }
+.row .col12 { width: 100%; }
+
+.row .col1.add,
+.row .col1.pad { width: 4.1666666666667%; }
+.row .col2.add,
+.row .col2.pad {width: 12.5%; }
+.row .col3.add,
+.row .col3.pad,
+.row.count4 .cols.add,
+.row.count4 .cols.pad { width: 20.833333333333%; }
+.row .col4.add,
+.row .col4.pad,
+.row.count3 .cols.add,
+.row.count3 .cols.pad { width: 29.16666666666%; }
+.row .col5.add,
+.row .col5.pad { width: 37.5%; }
+.row .col6.add,
+.row .col6.pad,
+.row.count2 .cols.add,
+.row.count2 .cols.pad  { width: 45.83333333333%; }
+.row .col7.add,
+.row .col7.pad { width: 54.166666666667%; }
+.row .col8.add,
+.row .col8.pad  { width: 62.5%; }
+.row .col9.add,
+.row .col9.pad { width: 70.833333333333%; }
+.row .col10.add,
+.row .col10.pad { width: 79.166666666667%; }
+.row .col11.add,
+.row .col11.pad { width: 87.5%; }
+.row .col12.add,
+.row .col12.pad { width: 95.833333333333%; }
+.row > .colfr, .colfr { float: right; }
+
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1382px) {
+
+}
